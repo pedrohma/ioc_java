@@ -7,12 +7,17 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class MainApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		AbstractApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
-		
-		HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
-		obj.getMessage();
-		context.registerShutdownHook();
+
+		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+
+		HelloWorld objA = (HelloWorld) context.getBean("helloWorld");
+		objA.getMessage1();
+		objA.getMessage2();
+
+		HelloBrasil objB = (HelloBrasil) context.getBean("helloBrasil");
+		objB.getMessage1();
+		objB.getMessage2();
+		objB.getMessage3();
 	}
 
 }
