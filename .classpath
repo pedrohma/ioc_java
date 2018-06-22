@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-websocket-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-webmvc-portlet-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-webmvc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-web-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-tx-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-test-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-oxm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-orm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-messaging-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-jms-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-jdbc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-instrument-tomcat-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-instrument-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-expression-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-core-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-context-support-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-context-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-beans-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-aspects-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/spring-aop-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shakkollc/Downloads/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
