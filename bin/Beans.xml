@@ -6,17 +6,11 @@
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
 	default-init-method = "init" 
    default-destroy-method = "destroy">
-
-	<bean id = "helloWorld" class = "com.spring_java.HelloWorld">
-      <property name = "message1" value = "Hello World!"/>
-      <property name = "message2" value = "Hello World Again!"/>
-      
-   </bean>
-
-   <bean id = "helloBrasil" class = "com.spring_java.HelloBrasil">
-      <property name = "message1" value = "Hello Brasil!"/>
-      <property name = "message2" value = "Muito obrigado!"/>
-      <property name = "message3" value = "Brasil eu te amo!"/>
+   
+   <bean id = "textEditor" class = "com.spring_java.TextEditor">
+      <property name = "spellChecker">
+         <bean id = "spellChecker" class = "com.spring_java.SpellChecker"/>
+      </property>
    </bean>
 
 </beans>

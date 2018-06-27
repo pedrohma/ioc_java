@@ -10,14 +10,8 @@ public class MainApp {
 
 		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 
-		HelloWorld objA = (HelloWorld) context.getBean("helloWorld");
-		objA.getMessage1();
-		objA.getMessage2();
-
-		HelloBrasil objB = (HelloBrasil) context.getBean("helloBrasil");
-		objB.getMessage1();
-		objB.getMessage2();
-		objB.getMessage3();
+		TextEditor te = (TextEditor) context.getBean("textEditor");
+		te.spellCheck();
 	}
 
 }
